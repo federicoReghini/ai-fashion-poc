@@ -1,0 +1,11 @@
+# Environment — never commit real secrets
+.env
+.env.local
+.env.*.local
+
+# Build output
+/clienteling-poc
+*.exe
+
+# Test cache
+/tmp
